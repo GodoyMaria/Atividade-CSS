@@ -1,0 +1,90 @@
+body {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+
+    background-image: url("fundoespaco.gif");
+
+    margin: 0px 0px 0px 0px;
+}
+.conteudo-padrao {
+    background-color: rgb(10, 10, 10);
+
+    border-style: solid;
+    border-color: rgb(10, 10, 10);
+    border-width: 10px 0px; 
+}
+#intro-pag {
+    background-color: rgb(10, 10, 10);
+
+    border-style: solid;
+    border-color: rgb(10, 10, 10);
+    border-width: 10px 0px; 
+}
+@font-face {
+    font-family: newFont;
+    src: url(JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: titleFont;
+    src: url(Starjedi.ttf);
+}
+p {
+    font-family: newFont;
+
+    text-align: justify;
+    color: #a2b8c3;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1 {
+    font-family: titleFont;
+
+    text-align: center;
+    color: #41577f;
+}
+h2 {
+    font-family: titleFont;
+
+    color: #41577f;
+
+    padding-left: 25px;
+    padding-right: 50px;
+}
+nav {
+    font-family: newFont;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+footer {
+    font-family: newFont;
+
+    color: #a2b8c3;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background-color: rgb(10, 10, 10);
+
+    border-style: solid;
+    border-color: rgb(10, 10, 10);
+    border-width: 10px 0px; 
+}
+a:link {
+    color: #a2b8c3;
+}
+a:visited {
+    color: #09274b;
+}
+a:hover {
+    color: #09274b;
+}
+a:active {
+    color: #09274b;
+}
+img {
+    border-radius: 12px;
+    width: 400px;
+    padding-left: 30%;
+}
